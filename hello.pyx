@@ -1,4 +1,4 @@
-# hello.pyx
+#  hello.pyx
 def main():
     print 'hello, world'
 
