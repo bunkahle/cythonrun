@@ -1,4 +1,4 @@
-# accum.pyx
+#  accum.pyx
 def main():
     cdef int i, n, accum
     accum = 0
