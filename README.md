@@ -3,7 +3,7 @@ cythonrun lets you compile and run cython files in one line. Windows, OSX and Li
 
 <h2>Installation</h2>
 
-Copy the files cythonrun.py, runcython.py and makecython into the folder where you want to execute your pyx-files.
+Copy the files cythonrun.py, runcython.py and makecython.py into the folder where you want to execute your pyx-files.
     
 <h2>Usage</h2>
 
