@@ -9,9 +9,6 @@ Clone or download the github repository and run the setup by entering:
 
 You can now call the three scripts `cythonrun.py`, `makecython.py` and `runcython.py` in every directory.
 
-=======
-Copy the files cythonrun.py, runcython.py and makecython.py into the folder where you want to execute your pyx-files.
-    
 <h2>Usage</h2>
 
     # hello.pyx
