@@ -3,9 +3,9 @@ cythonrun lets you compile and run cython files in one line. Windows, OSX and Li
 
 <h2>Installation</h2>
 
-Clone the github repository and run the setup by entering:
+Clone or download the github repository and run the setup by entering:
 
-    # python setup.py install
+    $ python setup.py install
 
 You can now call the three scripts `cythonrun.py`, `makecython.py` and `runcython.py` in every directory.
 
