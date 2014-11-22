@@ -66,4 +66,4 @@ runcython.py program know where to start the execution of the code.
     9999999
     0.0161808932649 seconds execution time.
    
-  There's no need to muck around with distutils or intermediate files. Using cython the typical way would require creating 5 distinct files, `accum.pyx`, `accum.c`, `accum.so`, `setup.py`, and `use.py`. That's a lot of moving parts to keep track of. `runcython` keeps things simple so that you can just focus on writing fast code. If you want to output a module for use in your other python files, you can always use `makecython` instead:
+  There's no need to muck around with distutils or intermediate files. Using cython the typical way would require creating 5 distinct files, `accum.pyx`, `accum.c`, `accum.pyd`, `setup.py`, and `use.py`. That's a lot of moving parts to keep track of. `cythonrub.py` keeps things simple so that you can just focus on writing fast code. If you want to output a module for use in your other python files, you can always use `makecython` instead:
