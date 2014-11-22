@@ -4,6 +4,7 @@ import sys
 
 projname = ""
 progname = ""
+
 if len(sys.argv)>2:
     projname = sys.argv[1]
     print("Found Project name:", projname)
