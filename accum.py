@@ -1,6 +1,6 @@
 import time
 
-# accum.py
+#  accum.py
 def main():
     # def int i, n, accum
     accum = 0

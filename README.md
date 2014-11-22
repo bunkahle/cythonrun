@@ -3,7 +3,7 @@ cythonrun lets you compile and run cython files in one line. Windows, OSX and Li
 
 <h2>Installation</h2>
 
-Copy the files cythonrun.py, runcython.py and makecython into the folder where you want to execute your pyx-files.
+Copy the files cythonrun.py, runcython.py and makecython.py into the folder where you want to execute your pyx-files.
     
 <h2>Usage</h2>
 
@@ -66,4 +66,4 @@ runcython.py program know where to start the execution of the code.
     9999999
     0.0161808932649 seconds execution time.
    
-  There's no need to muck around with distutils or intermediate files. Using cython the typical way would require creating 5 distinct files, `accum.pyx`, `accum.c`, `accum.so`, `setup.py`, and `use.py`. That's a lot of moving parts to keep track of. `runcython` keeps things simple so that you can just focus on writing fast code. If you want to output a module for use in your other python files, you can always use `makecython` instead:
+  There's no need to muck around with distutils or intermediate files. Using cython the typical way would require creating 5 distinct files, `accum.pyx`, `accum.c`, `accum.pyd`, `setup.py`, and `use.py`. That's a lot of moving parts to keep track of. `cythonrun.py` keeps things simple so that you can just focus on writing fast code. If you want to output a module for use in your other python files, you can always use `makecython.py` instead. If the code has already been compiled you can use `runcython.py` just for executing/testing the compiled module. Make sure you have main() definition inside your module as an entry point for `runcython.py`.
