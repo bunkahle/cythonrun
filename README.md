@@ -7,6 +7,10 @@ Clone or download the github repository and run the setup by entering:
 
     $ python setup.py install
 
+Alternatively you can also install the package via pip:
+
+    $ pip install cythonrun
+
 You can now call the three scripts `cythonrun.py`, `makecython.py` and `runcython.py` in every directory.
 
 <h2>Usage</h2>
