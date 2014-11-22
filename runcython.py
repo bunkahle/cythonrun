@@ -3,6 +3,7 @@ from Cython.Build import cythonize
 import os, sys, time
 
 progname = ""
+
 if len(sys.argv)==2:
     progname = sys.argv[1]
     print("Running Program:", progname) 
